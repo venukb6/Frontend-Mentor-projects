@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      margin: 0;
+      background-color: rgb(211, 229, 237);
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+    }
+    p{
+      color: gray;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      margin: 20px;
+      width: 330px;
+      height: 550px;
+      border-radius: 15px;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+    }
+
+    img{
+      margin-top: 20px;
+      border-radius: 15px;
+    }
+
+    .text-container{
+      padding: 30px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="qr-container">
+      <img src="./images/image-qr-code.png" alt="qr-code-image" width="270px" height="270px">
+    </div>
+
+    <div class="text-container">
+      <h2>Improve your front-end skills by building projects</h2>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to next level</p>
+    </div>
+    
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Venu K B</a>.
+  </div>
+</body>
+</html>
